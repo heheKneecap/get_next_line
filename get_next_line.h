@@ -7,8 +7,10 @@
 # include <stddef.h>
 
 char    *get_next_line(int fd);
+char	*ft_strdup(const char *s);
+char	*ft_strjoin(const char *s1, const char *s2);
+char	*ft_substr(const char *s, unsigned int start, size_t len);
+size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 int	    ft_strlen(const char *s);
-void	*ft_calloc(size_t nmemb, size_t size);
-void	ft_bzero(void *s, size_t n);
 
 # endif
