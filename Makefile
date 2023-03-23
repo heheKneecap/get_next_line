@@ -6,7 +6,7 @@ OBJ = $(SRC:.c=.o)
 
 CC = cc
 
-CFLAGS = -c -Wall -Wextra -Werror -D BUFFER_SIZE=n
+CFLAGS = -c -Wall -Wextra -Werror
 
 ARSR = ar -sr
 
